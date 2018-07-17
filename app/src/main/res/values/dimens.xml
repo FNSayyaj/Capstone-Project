@@ -1,0 +1,96 @@
+<resources>
+
+    <!--CardView -->
+    <dimen name="list_cardview_margin_top">4dp</dimen>
+    <dimen name="list_cardview_margin_bottom">4dp</dimen>
+    <dimen name="list_cardview_margin_left">4dp</dimen>
+    <dimen name="list_cardview_margin_right">4dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+    <dimen name="pressedTranslationZ">8dp</dimen>
+
+    <dimen name="list_textview_article_title_padding_left">16dp</dimen>
+    <dimen name="list_textview_article_title_padding_top">16dp</dimen>
+    <dimen name="list_textview_article_title_padding_right">16dp</dimen>
+    <dimen name="list_textview_article_title_padding_bottom">16dp</dimen>
+
+    <dimen name="list_textview_article_description_padding_left">16dp</dimen>
+    <dimen name="list_textview_article_description_padding_top">16dp</dimen>
+    <dimen name="list_textview_article_description_padding_right">16dp</dimen>
+    <dimen name="list_textview_article_description_padding_bottom">16dp</dimen>
+
+    <dimen name="list_textview_article_date_padding_left">16dp</dimen>
+    <dimen name="list_textview_article_date_padding_right">16dp</dimen>
+    <dimen name="list_textview_article_date_padding_bottom">16dp</dimen>
+
+    <dimen name="list_imageview_article_image_layout_height">250dp</dimen>
+
+
+    <!--Navigation drawer -->
+    <dimen name="nav_header_height">176dp</dimen>
+
+
+    <!--AboutActivity -->
+    <dimen name="buttons_padding">8dp</dimen>
+    <dimen name="button_title_text_size">16sp</dimen>
+
+    <!--ArticleActivity -->
+    <dimen name="progressbar_layout_marginTop">-7dp</dimen>
+
+    <!--BookmarksActivity -->
+    <dimen name="imageView_top_margin_portrait">250dp</dimen>
+    <dimen name="textView_top_margin_portrait">40dp</dimen>
+    <dimen name="textView_text_size_portrait">16sp</dimen>
+
+    <dimen name="imageview_bottom_margin_land">78dp</dimen>
+    <dimen name="imageview_end_margin_land">66dp</dimen>
+    <dimen name="textview_text_size_land">16sp</dimen>
+
+    <!--MainActivity -->
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="tabLayout_marginStart">25dp</dimen>
+
+
+    <!--SettingsActivity -->
+    <dimen name="frameLayout_layout_marginBottom">8dp</dimen>
+    <dimen name="frameLayout_layout_marginEnd">8dp</dimen>
+    <dimen name="frameLayout_layout_marginStart">8sp</dimen>
+
+    <!--SplashActivity -->
+    <dimen name="imageView_layout_width">300dp</dimen>
+    <dimen name="imageView_layout_height">300dp</dimen>
+
+    <!--Nav header -->
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_marginTop">20dp</dimen>
+
+    <!--Widget -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="relativeLayout_layout_margin">0dp</dimen>
+
+    <dimen name="appName_tv_textSize">18sp</dimen>
+    <dimen name="appName_tv_layout_margin">5dp</dimen>
+
+    <dimen name="titleArticle_tv_layout_marginStart">8dp</dimen>
+    <dimen name="titleArticle_tv_layout_marginEnd">8dp</dimen>
+    <dimen name="titleArticle_tv_layout_marginTop">16dp</dimen>
+    <dimen name="titleArticle_tv_textSize">18sp</dimen>
+
+    <dimen name="authorArticle1_tv_textSize">15sp</dimen>
+
+    <dimen name="timeArticle1_tv_layout_marginEnd">24dp</dimen>
+
+    <dimen name="openApp_btn_layout_marginTop">8dp</dimen>
+    <dimen name="openApp_btn_layout_marginEnd">8dp</dimen>
+    <dimen name="openApp_btn_layout_marginStart">8dp</dimen>
+    <dimen name="openApp_btn_layout_marginBottom">8dp</dimen>
+    <dimen name="openApp_btn_textSize">20sp</dimen>
+
+    <!-- AdMob bar -->
+    <dimen name="adBar_layout_marginBottom">8dp</dimen>
+    <dimen name="adBar_layout_marginEnd">8dp</dimen>
+    <dimen name="adBar_layout_marginTop">8dp</dimen>
+    <dimen name="adBar_layout_marginStart">8dp</dimen>
+
+</resources>

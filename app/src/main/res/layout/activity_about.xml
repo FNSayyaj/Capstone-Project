@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aboelfer.knightrider.radicalnews.Activities.AboutActivity">
+
+    <Button
+        android:id="@+id/licence_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:padding="@dimen/buttons_padding"
+        android:onClick="Licence"
+        android:textAllCaps="false"
+        android:text="@string/licence_btn_title"
+        android:textSize="@dimen/button_title_text_size"/>
+
+    <Button
+        android:id="@+id/usePolicy_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/licence_btn"
+        android:padding="@dimen/buttons_padding"
+        android:text="@string/usePolicy_btn_title"
+        android:textAlignment="viewStart"
+        android:onClick="Policy"
+        android:textAllCaps="false"
+        android:textSize="@dimen/button_title_text_size" />
+
+    <Button
+        android:id="@+id/appVersion_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/usePolicy_btn"
+        android:padding="@dimen/buttons_padding"
+        android:text="@string/appVersion_btn_title"
+        android:onClick="Version"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="@dimen/button_title_text_size" />
+
+</RelativeLayout>

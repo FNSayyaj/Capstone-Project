@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activities.SplashScreenActivity">
+
+    <ImageView
+        android:layout_width="@dimen/imageView_layout_width"
+        android:layout_height="@dimen/imageView_layout_height"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:id="@+id/logo_tv"
+        android:contentDescription="@string/splash_iv_description"/>
+
+    <TextView
+        android:id="@+id/poweredBy_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_gravity="bottom|center"
+        android:text="@string/splashscreen_tv"/>
+
+
+</FrameLayout>

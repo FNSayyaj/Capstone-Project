@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "833398654912",
+    "firebase_url": "https://radical-news.firebaseio.com",
+    "project_id": "radical-news",
+    "storage_bucket": "radical-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833398654912:android:d50f07e65c178aac",
+        "android_client_info": {
+          "package_name": "com.aboelfer.knightrider.radicalnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833398654912-j3kc6fr98g2s62oaaot2i1quji2m929o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXbiBKSEGOh57X2_lW_vy3UJnkbglMDfk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/relativeLayout_layout_margin"
+    android:background="@color/transparent_red"
+    android:orientation="vertical">
+
+    <TextView
+        android:textSize="@dimen/appName_tv_textSize"
+        android:id="@+id/appName_tv"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/appName_tv_layout_margin"
+        android:text="@string/widget_name" />
+
+    <TextView
+        android:id="@+id/titleArticle1_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/appName_tv"
+        android:layout_marginStart="@dimen/titleArticle_tv_layout_marginStart"
+        android:layout_marginEnd="@dimen/titleArticle_tv_layout_marginEnd"
+        android:maxLines="2"
+        android:textColor="@color/white"
+        tools:text="Canadian CF-18s bombed IS defencive positions, general say"
+        android:textSize="@dimen/titleArticle_tv_textSize" />
+
+    <TextView
+        android:id="@+id/authorArticle1_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/titleArticle1_tv"
+        android:layout_below="@+id/titleArticle1_tv"
+        tools:text="The Globe and Mail"
+        android:maxLines="1"
+        android:maxLength="24"
+        android:textColor="@color/green"
+        android:textSize="@dimen/authorArticle1_tv_textSize" />
+
+    <TextView
+        android:id="@+id/timeArticle1_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/authorArticle1_tv"
+        android:layout_alignEnd="@+id/titleArticle1_tv"
+        android:layout_marginEnd="24dp"
+        tools:text="1 hour ago"
+        android:textColor="@color/light_grey" />
+
+    <TextView
+        android:id="@+id/titleArticle2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/authorArticle1_tv"
+        android:layout_below="@+id/authorArticle1_tv"
+        android:layout_marginTop="@dimen/titleArticle_tv_layout_marginTop"
+        android:maxLines="2"
+        android:textColor="@color/white"
+        tools:text="Canadian CF-18s bombed IS defencive positions, general say"
+        android:textSize="@dimen/titleArticle_tv_textSize" />
+
+    <TextView
+        android:id="@+id/authorArticle2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/titleArticle2_tv"
+        android:layout_below="@+id/titleArticle2_tv"
+        tools:text="The Globe and Mail"
+        android:maxLines="1"
+        android:maxLength="24"
+        android:textColor="@color/green"
+        android:textSize="@dimen/authorArticle1_tv_textSize" />
+
+    <TextView
+        android:id="@+id/timeArticle2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/authorArticle2_tv"
+        android:layout_alignStart="@+id/timeArticle1_tv"
+        android:textColor="@color/light_grey"
+        tools:text="58 mins ago" />
+
+    <TextView
+        android:id="@+id/titleArticle3_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/authorArticle2_tv"
+        android:layout_below="@+id/authorArticle2_tv"
+        android:layout_marginTop="@dimen/titleArticle_tv_layout_marginTop"
+        android:maxLines="2"
+        android:textColor="@color/white"
+        tools:text="Canadian CF-18s bombed IS defencive positions, general say"
+        android:textSize="@dimen/titleArticle_tv_textSize" />
+
+    <TextView
+        android:id="@+id/authorArticle3_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/titleArticle3_tv"
+        android:layout_below="@+id/titleArticle3_tv"
+        tools:text="The Globe and Mail"
+        android:maxLines="1"
+        android:maxLength="24"
+        android:textColor="@color/green"
+        android:textSize="@dimen/authorArticle1_tv_textSize"/>
+
+    <TextView
+        android:id="@+id/timeArticle3_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/authorArticle3_tv"
+        android:layout_alignStart="@+id/timeArticle2_tv"
+        tools:text="42 mins ago"
+        android:textColor="@color/light_grey" />
+
+    <Button
+        android:id="@+id/openApp_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timeArticle3_tv"
+        android:layout_marginTop="@dimen/openApp_btn_layout_marginTop"
+        android:background="@drawable/widget_button_theme"
+        android:textColor="@color/light_grey"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:textSize="@dimen/openApp_btn_textSize"
+        android:text="@string/widget_button_title"
+        android:layout_marginEnd="@dimen/openApp_btn_layout_marginEnd"
+        android:layout_marginStart="@dimen/openApp_btn_layout_marginStart"
+        android:layout_marginBottom="@dimen/openApp_btn_layout_marginBottom" />
+
+</RelativeLayout>

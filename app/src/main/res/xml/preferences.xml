@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="@string/pref_newsOrigin_key"
+        android:title="@string/pref_newsOrigin_title"
+        android:dialogTitle="@string/pref_newsOrigin_dialog_title"
+        android:entries="@array/pref_newsOrigin_entries"
+        android:entryValues="@array/pref_newsOrigin_values"
+        android:defaultValue="@string/pref_newsOrigin_default"
+        android:summary="%s"/>
+
+    <ListPreference
+        android:key="@string/pref_articleFontSize_key"
+        android:title="@string/pref_articleFontSize_title"
+        android:dialogTitle="@string/pref_articleFontSize_dialog_title"
+        android:entries="@array/pref_articleFontSize_entries"
+        android:entryValues="@array/pref_articleFontSize_values"
+        android:defaultValue="@string/pref_articleFontSize_default"
+        android:summary="%s"/>
+
+</PreferenceScreen>

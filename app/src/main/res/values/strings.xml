@@ -1,0 +1,131 @@
+<resources>
+
+    <!-- Activities titles -->
+    <string name="app_name">Radical News</string>
+    <string name="title_main_activity">Radical News</string>
+    <string name="title_about_activity">About</string>
+    <string name="title_bookmark_activity">Bookmarks</string>
+    <string name="title_Search_activity">Search</string>
+    <string name="title_Settings_activity">Settings</string>
+    <string name="title_article_activity">Article</string>
+
+    <!--Tabbed fragment tabs titles -->
+    <string name="tab_text_1">Top Headlines</string>
+    <string name="tab_text_2">Entertainment</string>
+    <string name="tab_text_3">Technology</string>
+    <string name="tab_text_4">Health</string>
+    <string name="tab_text_5">Science</string>
+    <string name="tab_text_6">Sports</string>
+    <string name="tab_text_7">Business</string>
+
+    <!--Volley JSON keys -->
+    <string name="KEY_ARTICLES" translatable="false">articles</string>
+    <string name="KEY_AUTHOR" translatable="false">author</string>
+    <string name="KEY_TITLE" translatable="false">title</string>
+    <string name="KEY_DESCRIPTION" translatable="false">description</string>
+    <string name="KEY_ARTICLE_URL" translatable="false">url</string>
+    <string name="KEY_IMAGE_URL" translatable="false">urlToImage</string>
+    <string name="KEY_PUBLISHED_DATE" translatable="false">publishedAt</string>
+
+    <!--SnackBar placeholders -->
+    <string name="no_connectivity_error">Error, No Internet Connectivity Detected Please Check Your Network Connection</string>
+    <string name="retry_to_connect">Retry</string>
+
+
+    <!--Articles Url's used in MainActivity and the NewsWidgetProvider -->
+    <string name="URL_Top_Headlines_1st_part" translatable="false">https://newsapi.org/v2/top-headlines?country=</string>
+    <string name="URL_Top_Headlines_2nd_part" translatable="false">&amp;apiKey=PUT THE API KEY HERE PLEASE</string>
+
+    <string name="URL_Entertainment_1st_part" translatable="false">https://newsapi.org/v2/top-headlines?country=</string>
+    <string name="URL_Entertainment_2nd_part" translatable="false">&amp;category=entertainment&amp;apiKey=PUT THE API KEY HERE PLEASE</string>
+
+    <string name="URL_Technology_1st_part" translatable="false">https://newsapi.org/v2/top-headlines?country=</string>
+    <string name="URL_Technology_2nd_part" translatable="false">&amp;category=technology&amp;apiKey=PUT THE API KEY HERE PLEASE</string>
+
+    <string name="URL_Health_1st_part" translatable="false">https://newsapi.org/v2/top-headlines?country=</string>
+    <string name="URL_Health_2nd_part" translatable="false">&amp;category=health&amp;apiKey=PUT THE API KEY HERE PLEASE</string>
+
+    <string name="URL_Science_1st_part" translatable="false">https://newsapi.org/v2/top-headlines?country=</string>
+    <string name="URL_Science_2nd_part" translatable="false">&amp;category=science&amp;apiKey=PUT THE API KEY HERE PLEASE</string>
+
+    <string name="URL_Sports_1st_part" translatable="false">https://newsapi.org/v2/top-headlines?country=</string>
+    <string name="URL_Sports_2nd_part" translatable="false">&amp;category=sports&amp;apiKey=PUT THE API KEY HERE PLEASE</string>
+
+    <string name="URL_Business_1st_part" translatable="false">https://newsapi.org/v2/top-headlines?country=</string>
+    <string name="URL_Business_2nd_part" translatable="false">&amp;category=business&amp;apiKey=PUT THE API KEY HERE PLEASE</string>
+
+    <string name="URL_Search_Every_article_1st_part" translatable="false">https://newsapi.org/v2/everything?q=</string>
+    <string name="URL_Search_Every_article_2nd_part" translatable="false">&amp;apiKey=PUT THE API KEY HERE PLEASE</string>
+
+
+    <!--Navigation drawer states and views-->
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_iv_description">Image on the drawer shows the app logo</string>
+
+    <!--Navigation drawer actions -->
+    <string name="nav_refresh_news_title">Refresh News</string>
+    <string name="nav_bookmarks_title">Bookmarks</string>
+    <string name="nav_settings_title">Settings</string>
+    <string name="nav_about_title">About</string>
+    <string name="tools_group_title">Tools</string>
+
+    <string name="action_bookmark" translatable="false">Bookmark</string>
+    <string name="action_share" translatable="false">Share</string>
+
+    <!--Preferences keys and default values -->
+    <string name="pref_newsOrigin_default" translatable="false">us</string>
+    <string name="pref_newsOrigin_key" translatable="false">newsOrigin</string>
+    <string name="pref_newsOrigin_title" translatable="false">News origin country</string>
+    <string name="pref_newsOrigin_dialog_title" translatable="false">Choose country</string>
+
+    <string name="pref_articleFontSize_default">100</string>
+    <string name="pref_articleFontSize_key" translatable="false">articleFontSize</string>
+    <string name="pref_articleFontSize_title" translatable="false">Article text size</string>
+    <string name="pref_articleFontSize_dialog_title" translatable="false">Choose size</string>
+
+    <!--AboutActivity -->
+    <string name="licence_btn_title">Open-source licence</string>
+    <string name="usePolicy_btn_title">Usage Policy</string>
+    <string name="appVersion_btn_title">Radical News Android App</string>
+    <string name="licence_url" translatable="false">https://opensource.org/licenses</string>
+    <string name="app_version" translatable="false">Version 1.0.0 | build 107</string>
+    <string name="use_policy">Radical News is for personal, non-commercial and education use only</string>
+
+    <!--ArticleActivity -->
+    <!--BookmarksActivity -->
+    <string name="no_bookmarks_iv_description" >a place holder when there is no articles bookmarked at the moment</string>
+    <string name="no_bookmarks_btn_title" >No articles bookmarked</string>
+
+    <!--MainActivity -->
+    <string name="action_search_title" >Search All News …</string>
+    <string name="action_search">Search</string>
+
+    <!--SettingsActivity -->
+    <!--SplashActivity -->
+    <string name="splash_iv_description">ImageView holds the image of the app launcher</string>
+    <string name="splashscreen_tv" translatable="false">Powered By: NewsApi.org</string>
+
+    <!--Time parsing -->
+    <string name="time_pattern" translatable="false">yyyy-MM-dd\'T\'HH:mm:ssZ</string>
+    <string name="time_replace_symbol" translatable="false">Z$</string>
+    <string name="time_replace_with" translatable="false">+0000</string>
+    <string name="time_minutes" translatable="false">\u0020mins ago</string>
+    <string name="time_hours" translatable="false">\u0020hour ago</string>
+
+    <!--Widget -->
+    <string name="widget_name"><u>Radical News</u></string>
+    <string name="updating_widget" translatable="false">updating app widgets</string>
+    <string name="received_widget_action" translatable="false">action received: </string>
+    <string name="check_null_string" translatable="false">null</string>
+    <string name="set_null_default_value">Unknown Author</string>
+    <string name="widget_button_title">Show more articles</string>
+
+    <!--RecyclerView item -->
+    <string name="article_iv_description">Article image is shown here if it is provided</string>
+
+    <!-- AdMob -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+
+</resources>
