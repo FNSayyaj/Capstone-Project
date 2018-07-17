@@ -156,19 +156,17 @@ class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener
             Date articleDate = formatter.parse(dateInString.replaceAll(context.getResources().getString(R.string.time_replace_symbol), context.getResources().getString(R.string.time_replace_with)));
             Date deviceDate =  Calendar.getInstance().getTime();
             long diff =  deviceDate.getTime() - articleDate.getTime();
-            //int numOfDays = (int) (diff / (1000 * 60 * 60 * 24));
+
             int hours = (int) (diff / (1000 * 60 * 60));
             int minutes = (int) (diff / (1000 * 60)) - (hours * 60);
-            //int seconds = (int) (diff / (1000));
-            if (hours < 1){
+
+            if (minutes < 60){
                 releaseDateTV.setText(String.valueOf(minutes) + context.getResources().getString(R.string.time_minutes));
             }
-            if (hours >= 1){
+
+            if (hours < 24 && minutes > 60){
                 releaseDateTV.setText(String.valueOf(hours) + context.getResources().getString(R.string.time_hours));
             }
-
-
-
         } catch (ParseException e) {
             e.printStackTrace();
         }

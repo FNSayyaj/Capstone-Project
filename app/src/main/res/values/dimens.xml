@@ -87,6 +87,11 @@
     <dimen name="openApp_btn_layout_marginBottom">8dp</dimen>
     <dimen name="openApp_btn_textSize">20sp</dimen>
 
+    <dimen name="appRefreshName_tv_textSize">18sp</dimen>
+
+    <dimen name="refreshWidget_tv_textSize">18sp</dimen>
+    <dimen name="refreshWidget_tv_layout_margin">8dp</dimen>
+
     <!-- AdMob bar -->
     <dimen name="adBar_layout_marginBottom">8dp</dimen>
     <dimen name="adBar_layout_marginEnd">8dp</dimen>

@@ -81,7 +81,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/articleDescription_tv"
-            app:srcCompat="@mipmap/ic_launcher" />
+            app:srcCompat="@mipmap/ic_launcher"
+            android:contentDescription="@string/appLogo_iv_description"/>
 
     </RelativeLayout>
 

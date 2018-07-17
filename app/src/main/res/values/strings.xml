@@ -120,9 +120,12 @@
     <string name="check_null_string" translatable="false">null</string>
     <string name="set_null_default_value">Unknown Author</string>
     <string name="widget_button_title">Show more articles</string>
+    <string name="widget_error_tv_title">Check your internet connection and refresh the widget</string>
 
     <!--RecyclerView item -->
     <string name="article_iv_description">Article image is shown here if it is provided</string>
+    <string name="appLogo_iv_description">Application logo image is shown here</string>
+
 
     <!-- AdMob -->
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>

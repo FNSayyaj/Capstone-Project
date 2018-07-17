@@ -57,7 +57,6 @@ public class NewsWidgetProvider extends AppWidgetProvider implements SharedPrefe
 
             country = preferences.getString(context.getString(R.string.pref_newsOrigin_key),
                     context.getString(R.string.pref_newsOrigin_default));
-
             StringRequest stringRequest = new StringRequest(GET,
                     context.getString(R.string.URL_Top_Headlines_1st_part) +
                     country +
@@ -90,6 +89,7 @@ public class NewsWidgetProvider extends AppWidgetProvider implements SharedPrefe
                     time2TV = articles.get(1).getPublishingDate();
                     time3TV = articles.get(2).getPublishingDate();
 
+
                     Intent intent = new Intent(context, MainActivity.class);
                     PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, 0);
 
@@ -109,6 +109,7 @@ public class NewsWidgetProvider extends AppWidgetProvider implements SharedPrefe
 
                     appWidgetManager.updateAppWidget(appWidgetId, views);
 
+
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -118,6 +119,7 @@ public class NewsWidgetProvider extends AppWidgetProvider implements SharedPrefe
             requestQueue.add(stringRequest);
         }
 }
+
 
     private String checkIfNull(String data, Context context) {
         if (data.equals(context.getResources().getString(R.string.check_null_string))) {

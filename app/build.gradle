@@ -20,7 +20,7 @@ android {
         keyConfig {
             keyAlias 'INSERT KEY HERE'
             keyPassword 'INSERT PASSWORD HERE'
-            storeFile file("$rootdir/javaKeystore.jks")
+            storeFile file("$rootDir/javaKeystore.jks")
             storePassword 'INSERT PASSWORD HERE'
         }
     }
